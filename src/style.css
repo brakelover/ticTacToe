@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 20px;
+    background: url("https://img.freepik.com/premium-photo/painting-blue-sky-with-clouds-sailboat-distance_579873-7657.jpg?w=2000");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  h1 {
+    margin-top: 0;
+    font-size: 22px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+  
+  h3 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  
+  h4 {
+    margin-top: 0;
+    font-size: 16px;
+  }
+  
+  h5 {
+    margin-top: 0;
+    font-size: 14px;
+  }
+  
+  h6 {
+    margin-top: 0;
+    font-size: 12px;
+  }
+  
+  code {
+    font-size: 1.2em;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  .square {
+    background: #f2faf7;
+    border: 2px solid black;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 20%;
+    height: 60px;
+    padding: 0;
+    text-align: center;
+    width: 60px;
+    box-shadow: 6px 8px;
+    margin: 0.01px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+
+  .game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5% auto auto;
+
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+
+  button{
+    border-radius: 5px;
+    box-shadow: 1.5px 2.5px;
+  }
+
+  .status{
+    font-family: 'Borel', 'Josefin Sans';
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 14px 1px 8px 13px;
+    background-color: aliceblue !important;
+    border-radius: 10px;
+    box-shadow: 4px 6px;
+    border: 3px solid black;
+  }
+  
+  .historyBtn{
+    margin: 3px auto;
+    padding: 6px 2.5px 2px 2.5px;
+    font-family: 'Borel', 'Josefin Sans';
+    font-weight: bold;
+  }
+  
+  .historyBtn:hover{
+    background-color: #33b1dab1 !important;
+  }
+
+  #theTitle{
+    font-family: 'Borel', 'Josefin Sans';
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    width: 100%;
+  }
+
+  @media all and (min-width: 1000px) {
+    #theTitle span{
+      padding: 0 10% 0;
+      border-bottom: 2px solid black;
+      line-height: 0;
+    }
+  }
